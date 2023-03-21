@@ -1,0 +1,32 @@
+.slider__ontainer {
+    padding: 20px;
+    border: 2px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider__title {
+    text-align: center;
+}
+
+.slider__card {
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: f1f1f1;
+    box-shadow: 0px 0px 2px #00000033;
+}
+
+.slider__content {
+    margin-bottom: 10px;
+}
+
+.slider__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+.packed__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.packed__title {
+    font-size: 1rem;
+    margin: 10px 0px;
+    color: #816eca;
+}
+
+.packed__search {
+    width: 100%;
+    font-size: .8rem;
+    padding: 5px 8px;
+    margin: 2px 0px;
+    outline: none;
+    border: 2px solid #8f86f022;
+    border-radius: 3px;
+    font-weight: 600;
+    width: 100%;
+    background-color: #eee;
+}
+
+.packed__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.packed__lis__item {
+    width: 100%;
+    box-shadow: 0px 0px 2px #00000033, 0px 0px 5px #00000033;
+    margin: 2px 0px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.packed__checkbox {
+    background-color: #816eca;
+    height: 15px;
+    width: 15px;
+}
+
+.packed__product {
+    font-size: 0.8rem;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.packed__price {
+    font-size: 0.8rem;
+    padding: 0px 20px;
+    font-weight: 700 
+}
+
+.packed__delete {
+    transform: rotate(45deg);
+    font-weight: 900;
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.packed__markAll {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #eee;
+    border: 2px solid #816eca;
+    border-radius: 5px;
+}
+
+.packed__total {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
